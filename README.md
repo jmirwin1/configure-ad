@@ -116,8 +116,8 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
   In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “EMPLOYEES” and another one called "ADMINS":
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Te4eo1N.png" alt="New Units"/>
+<img src="https://i.imgur.com/UMgCSNu.png" alt="Employees,Admin"/>
 </p>
 <p>
   Create a new employee named “Jane Doe” with the username of “jane_admin”:
