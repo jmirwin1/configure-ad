@@ -195,33 +195,28 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
   Open PowerShell_ise as an administrator.
 </p> 
 <p>  
-  Create a new File and paste the contents of this script (https://github.com/agruezo/configure-active-directory/blob/script/createUsers.ps1) into it:
+  Create a new File and paste the contents of this script (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it:
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/gQZWsF0.png" alt="Powershell ISE"/>
 </p>
 <p>
   Run the script and observe the accounts being created:
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/34jgris.png" alt="New Users"/>
 </p>
 <p>
   When finished, open ADUC and observe the accounts in the appropriate OU and attempt to log into Client-1 with one of the accounts (take note of the password in the script):
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/gdb5wPE.png" alt="Select New User"/>
+  <img src="https://i.imgur.com/XSVZvgy.png" alt="User Ted Login"/>
+  <img src="https://i.imgur.com/xtZ01O6.png" alt="Welcome Ted"/>
 </p>
 <br />
 <br />
 <p>
-  I hope this tutorial helped you learn a little bit about network security protocols and observe traffic between virtual machines. And although I ran this on a my MacBook Air, this can be easily done on a PC without having to download a remote desktop app since Windows provides that with it's software.
+  Now the lab is complete. As always, make sure to close your Remote Desktop connection, delete the Resource Group(s) created at the beginning of this tutorial, and verify Resource Group deletion so you don't incur unnecessary extra charges.
 </p>
 <p>
-  And now that we're done, DON'T FORGET TO CLEAN UP YOUR AZURE ENVIRONMENT so that you don't incur unnecessary charges.
-</p>
-<p>
-  Close your Remote Desktop connection, delete the Resource Group(s) created at the beginning of this tutorial, and verify Resource Group deletion.
-</p>
