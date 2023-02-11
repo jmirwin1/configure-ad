@@ -66,19 +66,19 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
   Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping):
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1OHk1sI.png" alt="Perpetual Ping"/>
 </p>
 <p>
   Login to the Domain Controller and enable ICMPv4 in on the local windows firewall:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wmW5FVN.png" alt="Enable Firewall"/>
 </p>
 <p>
   Check back at Client-1 to see the ping succeed:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QamfTY9.png" alt="Ping Success"/>
 </p>
 <br />
 <br />
