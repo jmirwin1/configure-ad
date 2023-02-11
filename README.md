@@ -88,32 +88,32 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
   Login to DC-1 and install Active Directory Domain Services:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wr5oUjU.png" alt="ADDS"/>
   </p>
 <p>
   Promote as a Domain Controller:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qcnUHi4.png" alt="Promote DC"/>
 </p>
 <p>
   Setup a new forest as mylabdomain.com
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9epecnC.png" alt="New Forest"/>
 </p>
 <p>
-  Restart and then log back into DC-1 as user: mylabdomain.com\labuser:
+  Restart and then log back into DC-1 as user: mylabdomain.com\jm_labuser:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1GcU734.png" alt="New Login"/>
 </p>
 <br />
 <br />
 <h3 align="center">Create an Admin and Normal User Account in AD</h3>
 <br />
 <p>
-  In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” and another one called "_ADMINS":
+  In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “EMPLOYEES” and another one called "ADMINS":
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
