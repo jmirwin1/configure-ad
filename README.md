@@ -145,25 +145,25 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
   From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uNSwkJg.png" alt="DNS Server"/>
 </p>
 <p>
   From the Azure Portal, restart Client-1.
 </p>
 <p>
-  Login to Client-1 (Remote Desktop) as the original local admin (labuser) and join it to the domain (computer will restart):
+  Login to Client-1 (Remote Desktop) as the original local admin (clientuser) and join it to the domain (computer will restart):
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zcH6Bpn.png" alt="Connect VM's"/>
 </p>
 <p>
   Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain.
 </p>
 <p>
-  Create a new OU named “_CLIENTS” and drag Client-1 into there:
+  Create a new organzational unit named “CLIENTS” and drag Client-1 into there:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fcEWqHY.png" alt="Clients"/>
 </p>
 <br />
 <br />
@@ -179,13 +179,10 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
   Allow “domain users” access to remote desktop.
 </p>
 <p>
-  You can now log into Client-1 as a normal, non-administrative user now.
+  You can now log into Client-1 as a normal, non-administrative user now
 </p>
 <p>
-  Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab):
-</p>
-<p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/hhXgnYP.png" alt="Domain Users"/>
 </p>
 <br />
 <br />
