@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create an Admin and Normal User Account in AD
 - Join Client-1 to your domain (mylabdomain.com)
 - Setup Remote Desktop for non-administrative users on Client-1
-- Create a manu additional users and attempt to log into client-1 with one of the users
+- Create additional users and attempt to log into client-1 with one of the users
 
 
 <h2>Deployment and Configuration Steps</h2>
@@ -37,26 +37,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Create the Domain Controller VM (Windows Server 2022) named “DC-1”:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/E1up1MO.png" alt="Resource Group"/>
+<img src="https://i.imgur.com/KKlI3bC.png" alt="DC-1"/>
 </p>
 <p>
 Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in previous step:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BC61CPH.png" alt="Client-1"/>
 </p>
 <p>
   Set Domain Controller’s NIC Private IP address to be static:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Xm3VCPS.png" alt="Static"/>
 </p>
 <p>
   Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher):
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pZjmtNQ.png" alt="Topology"/>
 </p>
 <br />
 <br />
