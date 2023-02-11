@@ -120,22 +120,22 @@ Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Gr
 <img src="https://i.imgur.com/UMgCSNu.png" alt="Employees,Admin"/>
 </p>
 <p>
-  Create a new employee named “Jane Doe” with the username of “jane_admin”:
+  Create a new employee/administrator named “Jane Doe” with the username of “admin_janed”:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oFnpO4l.png" alt="Admin Jane Doe"/>
 </p>
 <p>
-  Add jane_admin to the “Domain Admins” Security Group:
+  Add admin_janed to the “Domain Admins” Security Group:
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/Lq4aDfn.png" alt="Domain Admins"/>
 </p>
 <p>  
-  Log out/close the Remote Desktop connection to DC-1 and log back in as “mylabdomain.com\jane_admin”. Use jane_admin as your admin account from now on:
+  Log out/close the Remote Desktop connection to DC-1 and log back in as “mylabdomain.com\admin_janed”. Use admin_janed as your admin account from now on:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6knP5YG.png" alt="Admin Jane New Login"/>
 </p>
 <br />
 <br />
